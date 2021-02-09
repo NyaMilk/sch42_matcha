@@ -6,7 +6,7 @@
 HI! Matcha - tinder-like web app. Developed by [rkina](https://github.com/Dindonpingpong) and [mgrass](https://github.com/NyaMilk) from school21.
 
 ER diagram
-![er-diagram](https://github.com/Dindonpingpong/sch42_matcha/blob/master/er.png)
+![er-diagram](https://github.com/Dindonpingpong/sch42_matcha/blob/master/media_for_readme/er.png)
 
 # Deployment
 
@@ -40,4 +40,18 @@ Launch servers (node js and react)
 `sh deploy.sh run`
 
 # Docker
-Is coming...
+Docker compose consist of 2 container and postgresql
+
+# Pages
+
+## Login page
+![Login page](https://github.com/Dindonpingpong/sch42_matcha/blob/master/media_for_readme/login.gif)
+
+## Main page
+![Main page](https://github.com/Dindonpingpong/sch42_matcha/blob/master/media_for_readme/main.gif)
+
+## Connected notification
+![Connected notification](https://github.com/Dindonpingpong/sch42_matcha/blob/master/media_for_readme/connect.gif)
+
+## Edit
+![Edit](https://github.com/Dindonpingpong/sch42_matcha/blob/master/media_for_readme/edit.gif)

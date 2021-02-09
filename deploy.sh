@@ -18,9 +18,13 @@ case "$1" in
     cd api
     npm run dev
     ;;
+    "docker")
+    docker-compose up
+    ;;
     *)
     echo "Usage:"
     echo "sh deploy.sh packages - install npm packages for node js and react"
     echo "sh deploy.sh psql YOUR_DATABASE_ACCOUNT YOUR_DATABASE_NAME - deploy database"
     echo "sh deploy.sh run - run servers"
+    echo "sh deploy.sh docker - deploy project in docker"
 esac

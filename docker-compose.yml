@@ -1,0 +1,24 @@
+version: "3"
+services:
+  api:
+    build: ./api
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    depends_on:
+      - db
+    container_name: api_matcha
+  client:
+    build: ./client
+    ports:
+      - "80:80"
+    container_name: front_matcha
+  db:
+    image: postgres
+    environment: 
+      POSTGRES_USER: super
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: matcha
+    ports:
+      - "5432:5432"
+    container_name: psql_matcha
